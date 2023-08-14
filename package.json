@@ -1,0 +1,36 @@
+{
+  "name": "wallet-tx-scanner",
+  "version": "1.0.0",
+  "description": "Helps to quickly retrieve transactions from the blockchain knowing only the wallet address",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "nodemon ./lib/index.js",
+    "test": "mocha ./test/test.js"
+  },
+  "keywords": [
+    "blockchain",
+    "transactions",
+    "wallet",
+    "extraction",
+    "wallet address",
+    "blockchain extraction",
+    "cryptocurrency",
+    "finance",
+    "transaction decoding"
+  ],
+  "author": "vaaxooo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "axios-mock-adapter": "^1.21.5",
+    "chai": "^4.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaaxooo/wallet-tx-scanner.git"
+  },
+  "homepage": "https://github.com/vaaxooo/wallet-tx-scanner#readme",
+  "bugs": {
+    "url": "https://github.com/vaaxooo/wallet-tx-scanner/issues"
+  }
+}
